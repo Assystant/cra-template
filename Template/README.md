@@ -1,4 +1,4 @@
-# Getting Started with Template
+# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -39,10 +39,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Dependencies
+## Start with project using this template
 
-All the dependencies that are installed in the template, are added in the template.json file. The File contains all dependencies and dev dependencies that need to be used in the react project.
+To start with the react project, First we need to run the command `npx create-react-app project-name --template Assystant-Packages`. This will create a project for you with required dependencies that are already added in the template. The created project will have the `tailwind.config.js` file, `tsconfig.json` file and `prettierrc.json` file. Project also have some hook rules to test the coding standards prior to commit.
 
-## Package.json file
-
-This file contains the details about the tamplate like name, version and other details.
