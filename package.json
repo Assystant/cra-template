@@ -49,5 +49,8 @@
     "lint-full": "npx eslint .",
     "lint": "yarn lint-full --quiet",
     "lint-fix": "yarn lint --fix"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
