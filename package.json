@@ -1,7 +1,7 @@
 {
-  "name": "@assystant/react-template",
+  "name": "@assystant/cra-template",
   "version": "1.0.0",
-  "homepage": "https://github.com/Assystant/react-template#readme",
+  "homepage": "https://github.com/Assystant/cra-template#readme",
   "keywords": [
     "react",
     "create-react-app",
@@ -11,14 +11,14 @@
   "description": "React Template by Assystant",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Assystant/react-template"
+    "url": "https://github.com/Assystant/cra-template"
   },
   "license": "MIT",
   "engines": {
     "node": ">=16"
   },
   "bugs": {
-    "url": "https://github.com/Assystant/react-template/issues",
+    "url": "https://github.com/Assystant/cra-template/issues",
     "email": "saket@assystant.com"
   },
   "licenses": [
