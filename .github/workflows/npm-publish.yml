@@ -1,0 +1,25 @@
+# This workflow will run prepare for release and publish template to npm
+
+name: Assystant's React Starter Template
+
+on:
+  pull_request:
+    types: 
+      - closed
+    branches: 'master'
+
+jobs:
+  publish-npm:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          registry-url: ${{secrets.NPM_REGISTRY_URL}}
+          scope: ${{secrets.NPM_SCOPE}}
+      # - run: yarn
+      - run: yarn publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}

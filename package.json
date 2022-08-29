@@ -1,26 +1,53 @@
 {
-  "name": "cra-template-demotemplate",
-  "version": "1.2.0",
+  "name": "cra-react-template",
+  "version": "1.0.0",
+  "homepage": "https://github.com/Assystant/react-template#readme",
   "keywords": [
     "react",
     "create-react-app",
-    "template"
+    "template",
+    "assystant"
   ],
-  "description": "Assystant package",
+  "description": "React Template by Assystant",
   "repository": {
     "type": "git",
-    "url": "https://github.com/facebook/create-react-app.git",
-    "directory": "packages/cra-template"
+    "url": "https://github.com/Assystant/react-template"
   },
   "license": "MIT",
   "engines": {
-    "node": ">=14"
+    "node": ">=16"
   },
   "bugs": {
-    "url": "https://github.com/facebook/create-react-app/issues"
+    "url": "https://github.com/Assystant/react-template/issues",
+    "email": "saket@assystant.com"
   },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Saket Shukla",
+      "email": "saket@assystant.com",
+      "url": "https://in.linkedin.com/in/saket--shukla"
+    },
+    {
+      "name": "Shantanu Yadav",
+      "email": "shantanu.yadav@assystant.com",
+      "url": "https://in.linkedin.com/in/shantanu-yadav-62068b193/"
+    }
+  ],
   "files": [
     "template",
     "template.json"
-  ] 
+  ],
+  "scripts": {
+    "preci": "rm -fr node_modules",
+    "ci": "yarn install --frozen-lockfile",
+    "lint-full": "npx eslint .",
+    "lint": "yarn lint-full --quiet",
+    "lint-fix": "yarn lint --fix"
+  }
 }
